@@ -31,9 +31,7 @@ const power = function(a,b) {
 
 const factorial = function(n) {
 	let factorial = n;
-	if (n === 0) {
-	return 1;
-	}
+	if (n === 0) return 1;
 	for (let i = n-1; i>0; i--) {
 		factorial *= i;
 	}
